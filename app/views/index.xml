@@ -1,0 +1,39 @@
+<Alloy>
+    <Window class="container">
+
+        <!-- Row 1 -->
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+
+        <!-- Row 2 -->
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+
+        <!-- Row 3 -->
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+
+        <!-- Row 4 -->
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+
+        <!-- Row 5 -->
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+        <View class="tap"/>
+    </Window>
+</Alloy>

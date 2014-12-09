@@ -1,0 +1,9 @@
+".container": {
+    backgroundColor:"white"
+}
+
+".tap": {
+    width: "40dp",
+    height: "40dp",
+    backgroundColor: "#000"
+}
