@@ -1,9 +1,79 @@
 ".container": {
-    backgroundColor:"white"
+    backgroundColor: "white"
+}
+
+"#gameOverMessage": {
+    top: 0,
+    color: "#333",
+    font: {
+        fontFamily:'Helvetica',
+        fontSize: '35dp',
+        fontWeight: 'bold'
+    }
+}
+
+"#retry": {
+    backgroundColor: "#333",
+    top: 150,
+    left: 25,
+    right: 25,
+    height: Alloy.Globals.ui.grid,
+    borderRadius: 7,
+    font: {
+        fontFamily:'Helvetica',
+        fontSize: '20dp',
+        fontWeight: 'bold'
+    }
 }
 
 ".tap": {
-    width: "40dp",
-    height: "40dp",
-    backgroundColor: "#000"
+    backgroundColor: "#e7e7e7",
+    height: Alloy.Globals.ui.grid,
+    width: Alloy.Globals.ui.grid,
+    borderRadius: 7
+}
+
+"Label": {
+    color: '#fff',
+    font: {
+        fontFamily:'Helvetica',
+        fontSize: '20dp',
+        fontWeight: 'bold'
+    }
+}
+
+"#clockContainer": {
+   backgroundColor: "#e7e7e7",
+   top: 25,
+   left: 25,
+   height: Alloy.Globals.ui.grid,
+   width: Alloy.Globals.ui.half,
+   borderRadius: 7
+}
+
+"#clock": {
+   color: "#333",
+   font: {
+       fontFamily:'Helvetica',
+       fontSize: '25dp',
+       fontWeight: 'bold'
+   }
+}
+
+"#scoreContainer": {
+   backgroundColor: "#e7e7e7",
+   top: 25,
+   right: 25,
+   height: Alloy.Globals.ui.grid,
+   width: Alloy.Globals.ui.half,
+   borderRadius: 7
+}
+
+"#score": {
+   color: "#333",
+   font: {
+       fontFamily:'Helvetica',
+       fontSize: '25dp',
+       fontWeight: 'bold'
+   }
 }

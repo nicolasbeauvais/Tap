@@ -1,39 +1,22 @@
 <Alloy>
     <Window class="container">
 
-        <!-- Row 1 -->
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
+        <View id="gameContainer">
 
-        <!-- Row 2 -->
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
+            <View id="clockContainer">
+                <Label id="clock">00:00</Label>
+            </View>
 
-        <!-- Row 3 -->
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
+            <View id="scoreContainer">
+                <Label id="score">0</Label>
+            </View>
 
-        <!-- Row 4 -->
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
+            <View class="grid-container" id="grid"/>
 
-        <!-- Row 5 -->
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
-        <View class="tap"/>
+            <View id="gameOver">
+                <Label id="gameOverMessage">Game Over!</Label>
+                <Button id="retry">Retry</Button>
+            </View>
+        </View>
     </Window>
 </Alloy>

@@ -1,11 +1,10 @@
-// The contents of this file will be executed before any of
-// your view controllers are ever executed, including the index.
-// You have access to all functionality on the `Alloy` namespace.
-//
-// This is a great place to do any initialization for your app
-// or create any global variables/functions that you'd like to
-// make available throughout your app. You can easily make things
-// accessible globally by attaching them to the `Alloy.Globals`
-// object. For example:
-//
-// Alloy.Globals.someGlobalFunction = function(){};
+'use strict';
+
+// Ui vars
+Alloy.Globals.ui = {};
+
+Alloy.Globals.ui.logicalDensity = Titanium.Platform.getDisplayCaps().logicalDensityFactor;
+
+Alloy.Globals.ui.width = Titanium.Platform.getDisplayCaps().platformWidth / Alloy.Globals.ui.logicalDensity
+Alloy.Globals.ui.grid = Math.floor((Alloy.Globals.ui.width - 50) / 5).toString() + 'dp';
+Alloy.Globals.ui.half = Math.floor(Math.floor((Alloy.Globals.ui.width - 50) / 5) * 2.5) + 'dp';
